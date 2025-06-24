@@ -1,0 +1,15 @@
+{
+  "strategies": ["Martingale", "Anti-Martingale", "Fibonacci", "D'Alembert", "Oscar's Grind", "Flat Betting", "Percentage Betting"],
+  "teams": ["Arsenal", "Aston Villa", "Bournemouth", "Brentford", "Brighton", "Chelsea", "Crystal Palace", "Everton", "Fulham", "Leeds", "Leicester", "Liverpool", "Man City", "Man United", "Newcastle", "Nott'm Forest", "Southampton", "Tottenham", "West Ham", "Wolves"],
+  "years": ["24/25", "23/24", "22/23", "21/22", "20/21"],
+  "strategies_params": {
+    "Martingale": ["bankroll", "base_bet"],
+    "Anti-Martingale": ["bankroll", "base_bet"],
+    "Fibonacci": ["bankroll", "base_bet"],
+    "D'Alembert": ["bankroll", "base_bet"],
+    "Labouchere": ["bankroll", "sequence"],
+    "Oscar's Grind": ["bankroll", "base_bet"],
+    "Flat Betting": ["bankroll", "bet_amount"],
+    "Percentage Betting": ["bankroll", "percentage"]
+  }
+}
